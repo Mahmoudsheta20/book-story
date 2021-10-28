@@ -186,3 +186,14 @@ var swiper = new Swiper(".blogs-slider", {
         },
     },
 });
+fadeOut();
+
+function loader() {
+
+    document.querySelector('.loader-container').classList.add('activ');
+}
+
+function fadeOut() {
+
+    setTimeout(loader, 6000)
+}
